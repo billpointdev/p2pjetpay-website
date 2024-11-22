@@ -5,12 +5,14 @@ import { Button } from "@/components/ui/button"
 
 export function SubHero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center">
+    <section className="relative py-20 flex items-center justify-center">
       {/* Background Image with Overlay */}
       <div 
-        className="absolute inset-0 bg-[url('/placeholder.svg')] bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 bg-[url('/image2.jpg')] bg-cover bg-center bg-no-repeat"
+        
         style={{
-          backgroundImage: `linear-gradient(rgba(45, 22, 87, 0.85), rgba(45, 22, 87, 0.85)), url('/placeholder.svg')`
+          backgroundImage: `linear-gradient(rgba(45, 22, 8, 0.85), rgba(45, 22,
+          87, 0.85)), url('/image1.jpg')`
         }}
       />
 
@@ -48,7 +50,7 @@ export function SubHero() {
             transition={{ duration: 0.8, delay: 0.6 }}
           >
             <Button 
-              className="bg-[#7CC5FF] hover:bg-[#7CC5FF]/90 text-white px-8 py-6 rounded-full text-lg"
+              className="bg-green-500 hover:bg-[green]/90 text-white px-8 py-6 rounded-full text-lg"
              
             >
               Join Nosh Today

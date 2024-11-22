@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button"
 import { useToast } from "@/hooks/use-toast"
 import { Footer } from "@/components/usable/Footer"
 import { Header } from "@/components/usable/Header"
+import {axios} from "@/lib/axios"
 
 type FormData = {
   name: string
@@ -24,16 +25,31 @@ export default function SupportPage() {
   const {toast} = useToast()
 
   const onSubmit = async (data: FormData) => {
+    try{
     setIsSubmitting(true)
     // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 2000))
-    console.log(data)
+    const body = {
+      email: data.email,
+      phone:data.phone,
+      address:data.address,
+      message:data.message
+    }
+    await axios.post("message/support", body)
+    
     setIsSubmitting(false)
     toast({
       title: "Message Sent",
       description: "We've received your message and will get back to you soon.",
     })
     reset()
+    }
+    catch(err){
+      console.log(err)
+      toast({
+      title: "Oops! Something went wrong",
+      description: err.response.data.message
+    })
+    }
   }
 
   return (
@@ -83,11 +99,12 @@ export default function SupportPage() {
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
               <div>
                 <Input
-                  {...register("name", { required: "Name is required" })}
-                  placeholder="Your Name"
+                  {...register("address", { required: "Address is required" })}
+                  placeholder="Your Address"
                   className="w-full"
                 />
-                {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name.message}</p>}
+                {errors.address && <p className="text-red-500 text-sm
+                mt-1">{errors.address.message}</p>}
               </div>
               <div>
                 <Input

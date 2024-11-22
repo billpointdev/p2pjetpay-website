@@ -27,7 +27,7 @@ export function Header() {
         />
       </Link>
       <div className="flex items-center gap-2 sm:gap-4">
-        <Button variant="ghost" className="text-gray-600 text-sm sm:text-base">
+        <Button onClick={() => router.push("/support")} variant="ghost" className="text-gray-600 text-sm sm:text-base">
           SUPPORT
         </Button>
         <Button className="bg-green-500 hover:bg-[green]/90 text-white rounded-full px-4 sm:px-6 text-sm sm:text-base">

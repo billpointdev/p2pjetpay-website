@@ -6,31 +6,31 @@ import { Button } from "@/components/ui/button"
 const comparisonData = [
   {
     feature: "Instant Transaction Speed",
-    nosh: "A few minutes",
+    ofunds: "A few minutes",
     others: "600 Years 😉",
     highlighted: true
   },
   {
     feature: "Withdrawal Charges",
-    nosh: "Free",
+    ofunds: "Free",
     others: "Ridiculous",
     highlighted: false
   },
   {
     feature: "Realtime Notifications",
-    nosh: "Always",
+    ofunds: "Always",
     others: "Not Important",
     highlighted: true
   },
   {
     feature: "Customer Support",
-    nosh: "24/7",
+    ofunds: "24/7",
     others: "Only in the morning 😒",
     highlighted: false
   },
   {
     feature: "Rates",
-    nosh: "90%",
+    ofunds: "90%",
     others: "60%",
     highlighted: true
   }
@@ -72,9 +72,9 @@ export function ComparisonTable() {
             What do you prefer?
           </h2>
           <Button 
-            className="bg-transparent hover:bg-transparent text-[#7CC5FF] px-0 group"
+            className="bg-transparent hover:bg-transparent text-[limegreen] px-5 group"
           >
-            Join Nosh Today{" "}
+            Join Ofunds Today{" "}
             <motion.span
               className="inline-block ml-2"
               animate={{ x: [0, 5, 0] }}
@@ -90,7 +90,7 @@ export function ComparisonTable() {
           Feature
         </motion.div>
         <motion.div variants={itemVariants} className="hidden md:block font-semibold text-xl text-[#2D3648]">
-          Nosh
+          Ofunds
         </motion.div>
         <motion.div variants={itemVariants} className="hidden md:block font-semibold text-xl text-[#2D3648]">
           'DEM OTHER PLATFORMS'
@@ -109,12 +109,12 @@ export function ComparisonTable() {
               {item.feature}
             </motion.div>
             <motion.div
-              key={`nosh-${index}`}
+              key={`ofunds-${index}`}
               variants={itemVariants}
               className={`p-4 rounded-lg ${item.highlighted ? 'bg-gray-50' : ''}`}
             >
-              <div className="md:hidden font-semibold mb-2">Nosh</div>
-              {item.nosh}
+              <div className="md:hidden font-semibold mb-2">Ofunds</div>
+              {item.ofunds}
             </motion.div>
             <motion.div
               key={`others-${index}`}

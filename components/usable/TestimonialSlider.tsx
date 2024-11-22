@@ -63,7 +63,7 @@ export default function TestimonialSlider() {
   }, [])
 
   return (
-    <section className="bg-gradient-to-br from-[#2D1657] to-[#4A2A8A] py-16 px-4 sm:px-6 lg:px-8 min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="bg-gradient-to-br from-[black] to-[green] py-16 px-4 sm:px-6 lg:px-8  flex items-center justify-center overflow-hidden">
       <div className="max-w-6xl mx-auto w-full">
         <div className="relative">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

@@ -53,9 +53,10 @@ export function ServicesGrid() {
               className="w-full h-48 object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-4">
-              <h3 className="text-white text-xl font-semibold mb-2">{service.title}</h3>
+              <h3 className="text-white text-xl font-semibold">{service.title}</h3>
               <motion.p 
-                className="text-white text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                className="text-white mb-2 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                
                 initial={{ y: 20 }}
                 whileHover={{ y: 0 }}
               >

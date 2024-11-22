@@ -27,7 +27,8 @@ const itemVariants = {
 export function Hero() {
   return (
     <motion.section 
-      className="flex flex-col items-center justify-center min-h-screen text-center px-4 pt-20"
+      className="flex flex-col items-center justify-center text-center px-4
+      pt-32"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
@@ -37,7 +38,7 @@ export function Hero() {
           Sell, Buy, Pay, Send
         </span>
         <span className="block text-3xl sm:text-5xl md:text-6xl font-semibold text-[#2D3648]">
-          It's Easy With Nosh.
+          It's Easy With Ofunds.
         </span>
       </motion.h1>
       <motion.p className="mt-6 text-base sm:text-lg text-gray-600 max-w-2xl mx-auto" variants={itemVariants}>
@@ -54,10 +55,10 @@ export function Hero() {
             <Image
               src={platform === 'App Store' ? '/apple.png': '/play.png'}
               alt={`${platform} Logo`}
-              width={24}
+              width={30}
               objectFit="cover"
               height={24}
-              className="w-5 h-5 sm:w-6 sm:h-6"
+              className=""
             />
             <div className="text-left">
               <div className="text-xs">{index === 0 ? "Download on the" : index === 1 ? "Get it on" : "Use it on"}</div>
@@ -65,6 +66,8 @@ export function Hero() {
             </div>
           </motion.button>
         ))}
+        
+        <Image src="/IMG-20241122-WA0002-removebg.png" width={1500} height={1500} alt="hello"/>
       </motion.div>
     </motion.section>
   )

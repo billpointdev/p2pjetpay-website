@@ -4,7 +4,7 @@ export default function VideoSection() {
   const videoId = "dQw4w9WgXcQ" // Replace this with your actual YouTube video ID
 
   return (
-    <section className="py-24 px-4 bg-gradient-to-br from-[#2D1657] to-[#4A2A8A]">
+    <section className="py-24 px-4 bg-gradient-to-br from-[black] to-[green]">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-8 text-center">
           Check out our fun introductory video

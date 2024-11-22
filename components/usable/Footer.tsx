@@ -32,7 +32,7 @@ export function Footer() {
           {/* Company Info */}
           <div className="md:col-span-1">
             <Image
-              src="/placeholder.svg"
+              src="/ofunds.png"
               alt="NOSH Logo"
               width={120}
               height={40}
@@ -47,7 +47,7 @@ export function Footer() {
             <div className="flex flex-wrap gap-4">
               <Link href="#" className="inline-block">
                 <Image
-                  src="/placeholder.svg"
+                  src="/apple.png"
                   alt="Download on the App Store"
                   width={140}
                   height={42}
@@ -56,7 +56,7 @@ export function Footer() {
               </Link>
               <Link href="#" className="inline-block">
                 <Image
-                  src="/placeholder.svg"
+                  src="/play.png"
                   alt="Get it on Google Play"
                   width={140}
                   height={42}

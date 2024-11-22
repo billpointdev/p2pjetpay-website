@@ -11,7 +11,7 @@ import Link from "next/link"
 
 const faqs = [
   {
-    question: "How Do I Get Started With NOSH?",
+    question: "How Do I Get Started With Ofunds?",
     answer: (
       <>
         Getting started with NOSH is easy! Simply{" "}
@@ -27,19 +27,19 @@ const faqs = [
     ),
   },
   {
-    question: "How Can I Contact NOSH Support?",
+    question: "How Can I Contact Ofunds Support?",
     answer: "Our support team is available 24/7 through the in-app chat, email support@nosh.com, or call our hotline at 1-800-NOSH. We typically respond within minutes during business hours.",
   },
   {
-    question: "What Payment Options Does NOSH Support?",
+    question: "What Payment Options Does Ofunds Support?",
     answer: "NOSH supports various payment methods including bank transfers, debit cards, credit cards, and mobile money. All major Nigerian banks are supported for instant transfers.",
   },
   {
-    question: "How Secure Are My Transactions On NOSH?",
+    question: "How Secure Are My Transactions On Ofunds?",
     answer: "Your security is our top priority. We use bank-grade encryption for all transactions, maintain PCI DSS compliance, and implement multiple layers of security including two-factor authentication.",
   },
   {
-    question: "How Can I Exchange Gift Cards For Cash With NOSH?",
+    question: "How Can I Exchange Gift Cards For Cash With Ofunds?",
     answer: "To exchange gift cards, simply select the 'Sell Gift Cards' option in the app, choose your gift card type, upload the card details, and receive instant payment after verification. We offer competitive rates for all major gift cards.",
   },
 ]
@@ -74,7 +74,7 @@ export function FAQSection() {
                 transition={{ delay: 0.2 + index * 0.1 }}
               >
                 <AccordionItem value={`item-${index}`} className="border-none">
-                  <AccordionTrigger className="text-xl text-[#2D3648] font-medium hover:no-underline">
+                  <AccordionTrigger className="text-md text-[#2D3648] font-medium hover:no-underline">
                     {faq.question}
                   </AccordionTrigger>
                   <AccordionContent className="text-gray-600">
