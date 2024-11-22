@@ -21,8 +21,8 @@ export default function Home() {
   <VideoSection/>
   <FAQSection/>
   <TestimonialSlider/>
-  <DownloadSection/>*/}
-  <Footer/>
+  <DownloadSection/>
+  <Footer/>*/ }
 </main>
   );
 }
