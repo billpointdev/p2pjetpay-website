@@ -7,18 +7,17 @@ import { Facebook, Twitter, Instagram, Youtube, Linkedin } from 'lucide-react'
 
 const footerLinks = {
   services: {
-    title: "Links and Services",
+    title: "Services",
     links: [
       { name: "Bank Seamless Transactions", href: "#" },
       { name: "InApp Seamless Transactions", href: "#" },
     ]
   },
   support: {
-    title: "Support",
+    title: "Links",
     links: [
-      { name: "Contact", href: "#" },
       { name: "Home Page", href: "#" },
-      { name: "Support Page", href: "#" }
+      { name: "Support Page", href: "/support" }
     ]
   }
 }
@@ -33,13 +32,15 @@ export function Footer() {
           <div className="md:col-span-1">
             <Image
               src="/ofunds.png"
-              alt="NOSH Logo"
+              alt="Ofunds Logo"
               width={120}
               height={40}
               className="mb-6"
             />
             <p className="text-gray-600 text-sm mb-6">
-              NOSH is an innovative platform for digital remittance, bill payments and gift card brokerage that offers a seamless and hassle-free solution to everyone at anytime.
+              Your ultimate hub for seamless connections. With our streamlined and comprehensive app, effortlessly engage
+            with others and enjoy convenient interactions, making every
+            transaction a breeze.
             </p>
             <p className="text-gray-600 text-sm mb-4">
               Click below to get the app today on Android and iOS.
@@ -107,8 +108,8 @@ export function Footer() {
               </Link>
             </div>
             <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600">
-              <a href="mailto:help@usenosh.com">help@usenosh.com</a>
-              <span>+234 8125349466</span>
+              <a href="mailto:help@usenosh.com">blordgroupmancity@gmail.com</a>
+              <span>+2349064219645</span>
             </div>
             <div className="flex items-center gap-4 text-sm text-gray-600">
               <Link href="#">Terms Of Use</Link>
@@ -117,7 +118,7 @@ export function Footer() {
             </div>
           </div>
           <p className="text-center text-gray-500 text-sm mt-6">
-            © 2024 Usenosh.com. All Rights Reserved.
+            © 2024 Ofunds. All Rights Reserved.
           </p>
         </div>
       </div>

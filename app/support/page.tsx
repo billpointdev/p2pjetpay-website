@@ -76,16 +76,16 @@ export default function SupportPage() {
             <div className="space-y-4">
               <div className="flex items-center space-x-3 text-gray-700">
                 <Mail className="w-5 h-5 text-indigo-600" />
-                <span>support@example.com</span>
+                <span>blordgroupmancity@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-700">
                 <Phone className="w-5 h-5 text-indigo-600" />
-                <span>+1 (555) 123-4567</span>
+                <span>+2349064219645</span>
               </div>
-              <div className="flex items-center space-x-3 text-gray-700">
+         {/*     <div className="flex items-center space-x-3 text-gray-700">
                 <MapPin className="w-5 h-5 text-indigo-600" />
-                <span>123 Support Street, City, Country</span>
-              </div>
+
+              </div>*/}
             </div>
           </motion.div>
 

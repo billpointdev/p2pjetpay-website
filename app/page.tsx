@@ -15,13 +15,13 @@ export default function Home() {
 <main>
   <Header/>
   <Hero/>
-  <ServicesGrid/>
+{/*<ServicesGrid/>
   <SubHero/>
   <ComparisonTable/>
   <VideoSection/>
   <FAQSection/>
   <TestimonialSlider/>
-  <DownloadSection/>
+  <DownloadSection/>*/}
   <Footer/>
 </main>
   );

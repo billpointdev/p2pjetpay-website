@@ -35,14 +35,16 @@ export function Hero() {
     >
       <motion.h1 className="max-w-4xl mx-auto" variants={itemVariants}>
         <span className="block text-3xl sm:text-5xl md:text-6xl font-semibold text-green-500 mb-4">
-          Sell, Buy, Pay, Send
+          Send, Transfer, Pay
         </span>
         <span className="block text-3xl sm:text-5xl md:text-6xl font-semibold text-[#2D3648]">
           It's Easy With Ofunds.
         </span>
       </motion.h1>
       <motion.p className="mt-6 text-base sm:text-lg text-gray-600 max-w-2xl mx-auto" variants={itemVariants}>
-        The highly recommended platform for gift cards, digital remittance, and bills payment. Join Ofunds today.
+        Your ultimate hub for seamless connections. With our streamlined and comprehensive app, effortlessly engage
+            with others and enjoy convenient interactions, making every
+            transaction a breeze.
       </motion.p>
       <motion.div className="flex flex-wrap justify-center gap-4 mt-12" variants={itemVariants}>
         {["App Store", "Google Play"].map((platform, index) => (
