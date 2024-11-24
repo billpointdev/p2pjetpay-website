@@ -17,6 +17,7 @@ const footerLinks = {
     title: "Links",
     links: [
       { name: "Home Page", href: "#" },
+            { name: "Privacy Page", href: "/privacy" },
       { name: "Support Page", href: "/support" }
     ]
   }
@@ -108,13 +109,13 @@ export function Footer() {
               </Link>
             </div>
             <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600">
-              <a href="mailto:help@usenosh.com">blordgroupmancity@gmail.com</a>
+              <a href="mailto:blordgroupmancity@gmail.com">blordgroupmancity@gmail.com</a>
               <span>+2349064219645</span>
             </div>
             <div className="flex items-center gap-4 text-sm text-gray-600">
-              <Link href="#">Terms Of Use</Link>
+              <Link href="/privacy">Terms Of Use</Link>
               <span>|</span>
-              <Link href="#">Privacy & Cookie Policy</Link>
+              <Link href="/privacy">Privacy & Cookie Policy</Link>
             </div>
           </div>
           <p className="text-center text-gray-500 text-sm mt-6">
