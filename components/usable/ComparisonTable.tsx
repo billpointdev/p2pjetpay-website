@@ -6,31 +6,31 @@ import { Button } from "@/components/ui/button"
 const comparisonData = [
   {
     feature: "Instant Transaction Speed",
-    ofunds: "A few minutes",
+    Jetpay: "A few minutes",
     others: "600 Years 😉",
     highlighted: true
   },
   {
     feature: "Withdrawal Charges",
-    ofunds: "Free",
+    Jetpay: "Free",
     others: "Ridiculous",
     highlighted: false
   },
   {
     feature: "Realtime Notifications",
-    ofunds: "Always",
+    Jetpay: "Always",
     others: "Not Important",
     highlighted: true
   },
   {
     feature: "Customer Support",
-    ofunds: "24/7",
+    Jetpay: "24/7",
     others: "Only in the morning 😒",
     highlighted: false
   },
   {
     feature: "Rates",
-    ofunds: "90%",
+    Jetpay: "90%",
     others: "60%",
     highlighted: true
   }
@@ -74,7 +74,7 @@ export function ComparisonTable() {
           <Button 
             className="bg-transparent hover:bg-transparent text-[limegreen] px-5 group"
           >
-            Join Ofunds Today{" "}
+            Join Jetpay Today{" "}
             <motion.span
               className="inline-block ml-2"
               animate={{ x: [0, 5, 0] }}
@@ -90,7 +90,7 @@ export function ComparisonTable() {
           Feature
         </motion.div>
         <motion.div variants={itemVariants} className="hidden md:block font-semibold text-xl text-[#2D3648]">
-          Ofunds
+          Jetpay
         </motion.div>
         <motion.div variants={itemVariants} className="hidden md:block font-semibold text-xl text-[#2D3648]">
           'DEM OTHER PLATFORMS'
@@ -109,12 +109,12 @@ export function ComparisonTable() {
               {item.feature}
             </motion.div>
             <motion.div
-              key={`ofunds-${index}`}
+              key={`Jetpay-${index}`}
               variants={itemVariants}
               className={`p-4 rounded-lg ${item.highlighted ? 'bg-gray-50' : ''}`}
             >
-              <div className="md:hidden font-semibold mb-2">Ofunds</div>
-              {item.ofunds}
+              <div className="md:hidden font-semibold mb-2">Jetpay</div>
+              {item.Jetpay}
             </motion.div>
             <motion.div
               key={`others-${index}`}

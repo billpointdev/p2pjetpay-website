@@ -17,7 +17,7 @@ export default function DownloadSection() {
             className="space-y-6"
           >
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#2D3648]">
-              Download <span className="text-[#7CC5FF]">Ofunds App</span>
+              Download <span className="text-[#7CC5FF]">Jetpay App</span>
             </h2>
             <p className="text-lg md:text-xl text-[#2D3648] max-w-lg">
               Get the APP today to start enjoying amazing deals on gift cards, payments, and bills with{" "}

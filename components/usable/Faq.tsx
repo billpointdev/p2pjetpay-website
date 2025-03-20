@@ -11,7 +11,7 @@ import Link from "next/link"
 
 const faqs = [
   {
-    question: "How Do I Get Started With Ofunds?",
+    question: "How Do I Get Started With Jetpay?",
     answer: (
       <>
         Getting started with NOSH is easy! Simply{" "}
@@ -27,19 +27,19 @@ const faqs = [
     ),
   },
   {
-    question: "How Can I Contact Ofunds Support?",
+    question: "How Can I Contact Jetpay Support?",
     answer: "Our support team is available 24/7 through the in-app chat, email support@nosh.com, or call our hotline at 1-800-NOSH. We typically respond within minutes during business hours.",
   },
   {
-    question: "What Payment Options Does Ofunds Support?",
+    question: "What Payment Options Does Jetpay Support?",
     answer: "NOSH supports various payment methods including bank transfers, debit cards, credit cards, and mobile money. All major Nigerian banks are supported for instant transfers.",
   },
   {
-    question: "How Secure Are My Transactions On Ofunds?",
+    question: "How Secure Are My Transactions On Jetpay?",
     answer: "Your security is our top priority. We use bank-grade encryption for all transactions, maintain PCI DSS compliance, and implement multiple layers of security including two-factor authentication.",
   },
   {
-    question: "How Can I Exchange Gift Cards For Cash With Ofunds?",
+    question: "How Can I Exchange Gift Cards For Cash With Jetpay?",
     answer: "To exchange gift cards, simply select the 'Sell Gift Cards' option in the app, choose your gift card type, upload the card details, and receive instant payment after verification. We offer competitive rates for all major gift cards.",
   },
 ]

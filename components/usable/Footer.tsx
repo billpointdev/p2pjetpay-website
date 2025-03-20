@@ -32,8 +32,8 @@ export function Footer() {
           {/* Company Info */}
           <div className="md:col-span-1">
             <Image
-              src="/ofunds.png"
-              alt="Ofunds Logo"
+              src="/Jetpay.png"
+              alt="Jetpay Logo"
               width={120}
               height={40}
               className="mb-6"
@@ -119,7 +119,7 @@ export function Footer() {
             </div>
           </div>
           <p className="text-center text-gray-500 text-sm mt-6">
-            © 2024 Ofunds. All Rights Reserved.
+            © 2024 Jetpay. All Rights Reserved.
           </p>
         </div>
       </div>

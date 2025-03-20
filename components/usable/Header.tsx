@@ -19,7 +19,7 @@ export function Header() {
     >
       <Link href="/" className="flex items-center">
         <Image
-          src="/ofunds.png"
+          src="/jetpro.png"
           alt="Nosh Logo"
           width={100}
           height={40}
@@ -30,7 +30,7 @@ export function Header() {
         <Button onClick={() => router.push("/support")} variant="ghost" className="text-gray-600 text-sm sm:text-base">
           SUPPORT
         </Button>
-        <Button className="bg-green-500 hover:bg-[green]/90 text-white rounded-full px-4 sm:px-6 text-sm sm:text-base">
+        <Button className="bg-orange-500 hover:bg-[orange]/90 text-white rounded-full px-4 sm:px-6 text-sm sm:text-base">
           GET APP 
         </Button>
         <Button onClick={() => router.push('/support')} variant="ghost" size="icon" className="ml-2">

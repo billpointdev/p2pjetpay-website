@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Ofunds",
+  title: "Jetpay",
   description: "Seamless Transaction made easy",
 };
 
