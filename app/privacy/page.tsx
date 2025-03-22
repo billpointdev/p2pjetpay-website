@@ -56,7 +56,6 @@ const sections = [
       
       - Email address
       - First name and last name
-      - Phone number
       - Cookies and Usage Data
 
       We may use your Personal Data to contact you with newsletters, marketing or promotional materials, and other information 
