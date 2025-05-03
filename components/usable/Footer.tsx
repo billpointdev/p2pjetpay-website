@@ -32,8 +32,8 @@ export function Footer() {
           {/* Company Info */}
           <div className="md:col-span-1">
             <Image
-              src="/Jetpay.png"
-              alt="Jetpay Logo"
+              src="/icon.jpeg"
+              alt="Jetpaye Logo"
               width={120}
               height={40}
               className="mb-6"
@@ -75,7 +75,7 @@ export function Footer() {
               <ul className="space-y-3">
                 {section.links.map((link) => (
                   <li key={link.name}>
-                    <Link 
+                    <Link
                       href={link.href}
                       className="text-gray-600 hover:text-gray-900 text-sm transition-colors duration-200"
                     >
@@ -110,7 +110,7 @@ export function Footer() {
             </div>
             <div className="flex flex-wrap items-center gap-4 text-sm text-gray-600">
               <a href="mailto:blordgroupmancity@gmail.com">blordgroupmancity@gmail.com</a>
-              <span>+2349064219645</span>
+              <span>+234 906 421 9645</span>
             </div>
             <div className="flex items-center gap-4 text-sm text-gray-600">
               <Link href="/privacy">Terms Of Use</Link>
@@ -119,7 +119,7 @@ export function Footer() {
             </div>
           </div>
           <p className="text-center text-gray-500 text-sm mt-6">
-            © 2024 Jetpay. All Rights Reserved.
+            © 2024 Jetpaye. All Rights Reserved.
           </p>
         </div>
       </div>
