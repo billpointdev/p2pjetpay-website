@@ -11,7 +11,7 @@ export function Header() {
 
 
   return (
-    <motion.header 
+    <motion.header
       className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 sm:px-6 py-4 bg-white"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
@@ -19,8 +19,8 @@ export function Header() {
     >
       <Link href="/" className="flex items-center">
         <Image
-          src="/jetpro.png"
-          alt="Nosh Logo"
+          src="/icon.jpeg"
+          alt="Jetpaye Logo"
           width={100}
           height={40}
           className="h-8 sm:h-10 w-auto"
@@ -31,7 +31,7 @@ export function Header() {
           SUPPORT
         </Button>
         <Button className="bg-orange-500 hover:bg-[orange]/90 text-white rounded-full px-4 sm:px-6 text-sm sm:text-base">
-          GET APP 
+          GET APP
         </Button>
         <Button onClick={() => router.push('/support')} variant="ghost" size="icon" className="ml-2">
           <HeadphonesIcon className="h-5 w-5 sm:h-6 sm:w-6" />
