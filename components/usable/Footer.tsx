@@ -32,7 +32,7 @@ export function Footer() {
           {/* Company Info */}
           <div className="md:col-span-1">
             <Image
-              src="/icon.jpeg"
+              src="/JETPAY.png"
               alt="Jetpaye Logo"
               width={120}
               height={40}
@@ -119,7 +119,7 @@ export function Footer() {
             </div>
           </div>
           <p className="text-center text-gray-500 text-sm mt-6">
-            © 2024 Jetpaye. All Rights Reserved.
+            ©2025 JetpayX. All Rights Reserved.
           </p>
         </div>
       </div>

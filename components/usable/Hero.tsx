@@ -26,7 +26,7 @@ const itemVariants = {
 
 export function Hero() {
   return (
-    <motion.section 
+    <motion.section
       className="flex flex-col items-center justify-center text-center px-4 pt-32"
       variants={containerVariants}
       initial="hidden"
@@ -34,17 +34,17 @@ export function Hero() {
     >
       <motion.h1 className="max-w-4xl mx-auto" variants={itemVariants}>
         <span className="block text-3xl sm:text-5xl md:text-6xl font-semibold text-orange-500 mb-4">
-          Buy, Sell & Swap
+          Chat, Connect & Meet
         </span>
         <span className="block text-3xl sm:text-5xl md:text-6xl font-semibold text-[#2D3648]">
-          It's Easy With Jetpay.
+          It is Easy With JetpayX.
         </span>
       </motion.h1>
       <motion.p className="mt-6 text-base sm:text-lg text-gray-600 max-w-2xl mx-auto" variants={itemVariants}>
         Your ultimate hub for seamless connections. With our streamlined and comprehensive app, effortlessly engage
         with others and enjoy convenient interactions, making every transaction a breeze.
       </motion.p>
-      
+
       {/* Buttons & Image Container */}
       <motion.div className="flex flex-col items-center gap-8 mt-12" variants={itemVariants}>
         {/* Button Container */}
@@ -71,7 +71,7 @@ export function Hero() {
         </div>
 
         {/* Image */}
-        <Image src="/image.png" width={300} height={300} alt="App Preview" className="rounded-lg shadow-lg"/>
+        {/*<Image src="/image.png" width={300} height={300} alt="App Preview" className="rounded-lg shadow-lg"/>*/}
       </motion.div>
     </motion.section>
   )
