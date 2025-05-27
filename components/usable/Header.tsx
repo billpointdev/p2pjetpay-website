@@ -19,7 +19,7 @@ export function Header() {
     >
       <Link href="/" className="flex items-center">
         <Image
-          src="/icon.jpeg"
+          src="/JETPAY.png"
           alt="Jetpaye Logo"
           width={100}
           height={40}
